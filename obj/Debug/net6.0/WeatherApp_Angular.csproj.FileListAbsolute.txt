@@ -1,0 +1,1 @@
+C:\Users\Korisnik\Desktop\Webdev\WeatherApp_FullStack\WeatherApp_Angular_FrontEnd\obj\Debug\net6.0\WeatherApp_Angular.csproj.AssemblyReference.cache

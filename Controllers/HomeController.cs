@@ -24,7 +24,7 @@ namespace WeatherApp.Controllers
 					user.Id = Convert.ToInt32(reader["id"]);
 					user.FirstName = reader["first_name"].ToString();
 					user.FirstName = reader["last_name"].ToString();
-					user.FirstName = reader["email"].ToString();
+					user.FirstName = reader["username"].ToString();
 					user.FirstName = reader["password"].ToString();
 
 					users.Add(user);	

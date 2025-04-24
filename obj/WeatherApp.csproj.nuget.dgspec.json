@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
+    "C:\\Users\\igorf\\OneDrive\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+    "C:\\Users\\igorf\\OneDrive\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "C:\\Users\\igorf\\OneDrive\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
         "projectName": "WeatherApp",
-        "projectPath": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\obj\\",
+        "projectPath": "C:\\Users\\igorf\\OneDrive\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "packagesPath": "C:\\Users\\igorf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igorf\\OneDrive\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\igorf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.33, )"
@@ -55,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

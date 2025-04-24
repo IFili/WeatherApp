@@ -14,6 +14,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+else
+{
+  app.UseDefaultFiles();
+  app.UseStaticFiles();
+}
 
 app.UseHttpsRedirection();
 app.UseStaticFiles(); // Add this line if you have static files in your project

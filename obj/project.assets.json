@@ -1830,11 +1830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
-      "projectName": "WeatherApp",
-      "projectPath": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+      "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp_FullStack\\WeatherApp_Angular_FrontEnd\\WeatherApp_Angular.csproj",
+      "projectName": "WeatherApp_Angular",
+      "projectPath": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp_FullStack\\WeatherApp_Angular_FrontEnd\\WeatherApp_Angular.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp\\WeatherApp\\WeatherApp\\obj\\",
+      "outputPath": "C:\\Users\\Korisnik\\Desktop\\Webdev\\WeatherApp_FullStack\\WeatherApp_Angular_FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
